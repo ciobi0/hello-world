@@ -14,15 +14,15 @@ if len(input1)==0 or len(input2) == 0:
     print('trebuie sa introduci un sir de caractere')
 # checks whether, the entered texts are anagrams and prints the result.
 if(len(input1) != len(input2)):
-    print('nu sunt anagrame')
+    print('nu sunt anagrame cele doua siruri')
 else:
     c =''
     for ch in input1:
         if ch not in input2:
-           c = 'nu sunt anagrame'
+           c = 'imi pare rau dar nu sunt anagrame'
            break
         else:
-            c = 'sunt anagrame'
+            c = 'corect, sunt anagrame'
     print (c)
 
 # better solution
