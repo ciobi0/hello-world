@@ -11,6 +11,7 @@ input2 = input2.replace(' ', '')
 # assume that two empty strings are not anagrams;
 if len(input1)==0 or len(input2) == 0:
     print('nu sunt anagrame siruri goale')
+    print('trebuie sa introduci un sir de caractere')
 # checks whether, the entered texts are anagrams and prints the result.
 if(len(input1) != len(input2)):
     print('nu sunt anagrame')
