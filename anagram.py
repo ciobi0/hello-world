@@ -10,10 +10,10 @@ input1 = input1.replace(' ', '')
 input2 = input2.replace(' ', '')
 # assume that two empty strings are not anagrams;
 if len(input1)==0 or len(input2) == 0:
-    print('nu sunt anagrame siruri goale')
+    print('nu sunt anagrame sirurile goale')
 # checks whether, the entered texts are anagrams and prints the result.
 if(len(input1) != len(input2)):
-    print('nu sunt anagrame')
+    print('nu sunt anagrame cele doua siruri')
 else:
     c =''
     for ch in input1:
