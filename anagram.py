@@ -18,10 +18,10 @@ else:
     c =''
     for ch in input1:
         if ch not in input2:
-           c = 'nu sunt anagrame'
+           c = 'imi pare rau dar nu sunt anagrame'
            break
         else:
-            c = 'sunt anagrame'
+            c = 'corect, sunt anagrame'
     print (c)
 
 # better solution
